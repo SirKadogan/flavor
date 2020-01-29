@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
+      parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -14,37 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83CBBA2D1A601D0E00E9B192"
-               BuildableName = "libReact.a"
-               BlueprintName = "React"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "flavor.app"
-               BlueprintName = "Flavor1"
-               ReferencedContainer = "container:flavor.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "flavorTests.xctest"
-               BlueprintName = "flavorTests"
+               BlueprintIdentifier = "0C903EB123E1C1A90018C459"
+               BuildableName = "Flavor2.app"
+               BlueprintName = "Flavor2"
                ReferencedContainer = "container:flavor.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "flavorTests.xctest"
-               BlueprintName = "flavorTests"
-               ReferencedContainer = "container:flavor.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "flavor.app"
-            BlueprintName = "Flavor1"
+            BlueprintIdentifier = "0C903EB123E1C1A90018C459"
+            BuildableName = "Flavor2.app"
+            BlueprintName = "Flavor2"
             ReferencedContainer = "container:flavor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "flavor.app"
-            BlueprintName = "Flavor1"
+            BlueprintIdentifier = "0C903EB123E1C1A90018C459"
+            BuildableName = "Flavor2.app"
+            BlueprintName = "Flavor2"
             ReferencedContainer = "container:flavor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -112,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "flavor.app"
-            BlueprintName = "Flavor1"
+            BlueprintIdentifier = "0C903EB123E1C1A90018C459"
+            BuildableName = "Flavor2.app"
+            BlueprintName = "Flavor2"
             ReferencedContainer = "container:flavor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
