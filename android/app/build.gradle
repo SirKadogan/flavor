@@ -90,7 +90,7 @@ apply from: "../../node_modules/react-native/react.gradle"
  * Upload all the APKs to the Play Store and people will download
  * the correct one based on the CPU architecture of their device.
  */
-def enableSeparateBuildPerCPUArchitecture = false
+def enableSeparateBuildPerCPUArchitecture = true
 
 /**
  * Run Proguard to shrink the Java bytecode in release builds.
@@ -148,6 +148,20 @@ android {
             storePassword 'android'
             keyAlias 'androiddebugkey'
             keyPassword 'android'
+        }
+    }
+    flavorDimensions "appConfig"
+
+    productFlavors {
+        flavor1 {
+            dimension "appConfig"
+            applicationIdSuffix 'flavor1'
+            resValue "string", "app_name", "Flavor1"
+        }
+        flavor2 {
+            dimension "appConfig"
+            applicationIdSuffix 'flavor2'
+            resValue "string", "app_name", "Flavor2"
         }
     }
     buildTypes {
